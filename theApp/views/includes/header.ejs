@@ -1,0 +1,11 @@
+<header> 
+    <h1> <a href="/"> Jesus </a></h1>
+    <nav>
+        <% if (user) { %>
+            <a href="/createpost"> Create Post</a>
+            <a href="/logout"> Log out </a>
+        <% } else { %>
+            <a href="/login"> Log in </a>
+        <% } %> 
+    </nav>
+</header>
